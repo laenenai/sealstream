@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# editors
+.idea/
+.vscode/
+*.swp
+
+# local env
+.env
+.env.local
+
+# build output
+bin/
+
+# developer-local Go workspace — see `task work`
+go.work
+go.work.sum
+
+# SDD scratch — briefs, reports, review packages, the ledger
+.superpowers/
+
+# python sidecars — uv manages these
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
